@@ -21,7 +21,9 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 
 Image has already been built: `davisliu/todoapp` and read to use.
 
-Alternatively, you can build the project by `docker-compose build` and start it by `docker-compose up`.
+Alternatively, you can build the project by `docker-compose build`.
+
+To start the app, please run `docker-compose up`. View in browser at `http://localhost`.
 
 ## Tutorial Series
 
