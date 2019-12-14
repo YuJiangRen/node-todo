@@ -17,6 +17,12 @@ Node provides the RESTful API. Angular provides the frontend and accesses the AP
 3. Start the server: `node server.js`
 4. View in browser at `http://localhost:8080`
 
+## Docker
+
+Image has already been built: `davisliu/todoapp` and read to use.
+
+Alternatively, you can build the project by `docker-compose build` and start it by `docker-compose up`.
+
 ## Tutorial Series
 
 This repo corresponds to the Node Todo Tutorial Series on [scotch.io](http://scotch.io)

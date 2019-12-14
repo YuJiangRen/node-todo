@@ -1,0 +1,14 @@
+version: '3'
+services:
+  todoapp:
+    image: davisliu/todoapp
+    build: ./
+    ports:
+    - "80:8080"
+    links:
+    - mongo:mongo
+    depends_on:
+    - mongo
+  mongo:
+    image: mongo
+    
